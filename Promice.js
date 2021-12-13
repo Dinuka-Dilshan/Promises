@@ -29,6 +29,7 @@ demo(true).then(
   }
 );
 
+//handle promices with async function
  const f = async (control) => {
   try {
     const result = await demo(control);
